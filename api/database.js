@@ -14,6 +14,9 @@ const db = new Pool({
   password: process.env.password,
   database: process.env.database,
   port: process.env.port_SQL,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 
 const createConnection = async (req, res, next) => {
