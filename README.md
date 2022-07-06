@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=PZFiThbuTFg
 
-### data Format for localhost:3000/api `Post`
+### data Format for https://tylerjus.herokuapp.com/api `Post`
 
 ```
 {
@@ -37,5 +37,12 @@ https://www.youtube.com/watch?v=PZFiThbuTFg
     }
   ]
 }
+
+```
+
+```
+TO GET BACK ALL data
+
+https://tylerjus.herokuapp.com/
 
 ```

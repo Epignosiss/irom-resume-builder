@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS resumebuilder;
-CREATE DATABASE resumebuilder;
+-- DROP DATABASE IF EXISTS resumebuilder;
+-- CREATE DATABASE resumebuilder;
 
-\c resumebuilder;
+-- \c resumebuilder;
 
 DROP TABLE IF EXISTS  userResume;
 
